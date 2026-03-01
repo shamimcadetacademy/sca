@@ -29,15 +29,23 @@ header {
       display: flex;
       list-style: none;
       li {
-        margin-right: 20px;
+        display: inline-block;
         a {
+          display: inline-block;
+          padding: 10px 15px;
+          border-radius: 5px;
+          text-align: center;
           text-decoration: none;
           color: var(--on-primary);
           font-weight: bold;
+          
+
           font-size: 20px;
           &:hover {
             color: var(--on-acent-hover);
           background-color: var(--acent-hover);
+          text-shadow: 2px 2px 4px #000000, -2px -2px 4px #ffffff;
+          
           }
         }
       }
@@ -57,12 +65,22 @@ header {
       z-index: 100;
 
       ul {
+        display: flex;
+        width: 100%;
+        gap: 2px;
         flex-direction: column;
         align-items: center;
         padding: 20px 0;
 
         li {
-          margin: 15px 0;
+          display: inline-block;
+          width: 100%
+          a {
+            width: 100%;
+            padding: 15px 0;
+            font-size: 18px;
+            text-align: center;
+          }
         }
       }
     }

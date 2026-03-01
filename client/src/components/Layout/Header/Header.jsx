@@ -31,7 +31,7 @@ export default function Header() {
         <header className={styles.header}>
             <div className={styles.siteHeader}>
                 <div className={styles.logoDetails}>
-                    <img src={siteConfig.logo} className={styles.logo} alt={siteConfig.name} height={75} />
+                    <a href="/"><img src={siteConfig.logo} className={styles.logo} alt={siteConfig.name} height={75} /></a>
                     <em className={styles.establishment}>
                         <strong>{siteConfig.established}</strong>
                     </em>

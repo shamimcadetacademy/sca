@@ -8,7 +8,7 @@ import Admission from './pages/Admission/Admission.jsx'
 // import Notices from './pages/Notices/Notices.jsx'
 // import About from './pages/About/About.jsx'
 // import Contact from './pages/Contact/Contact.jsx'
-// import NotFound from './pages/NotFound/NotFound.jsx'
+import NotFound from './pages/404/NotFound.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,8 +20,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/admission" element={<Admission />} />
           {/* <Route path="/notices" element={<Notices />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} /> */}
+          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>

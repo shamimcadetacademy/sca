@@ -34,7 +34,7 @@ export default function HomePage() {
     ]
     return (
         <> <Hero />
-            <MainPageLayout>
+            <MainPageLayout title={pageTitle} description={metaDescription} keywords={metaKeywords} author={metaAuthor}>
                 <article>
                     <h1>Welcome to Shamim Cadet Academy</h1>
                     <p>{quote}</p>

@@ -8,7 +8,7 @@ export default function Admission() {
     const metaKeywords = "Shamim Cadet Academy, admission process, cadet college coaching, eligibility criteria, competitive exams, cadet college preparation";
     const metaAuthor = "Shamim Cadet Academy";
     return (
-        <MainPageLayout>
+        <MainPageLayout title={pageTitle} description={metaDescription} keywords={metaKeywords} author={metaAuthor}>
                 <h1>{metaTitle}</h1>
                 <p>Discover the admission process at Shamim Cadet Academy. We provide comprehensive coaching and guidance to help aspiring cadets succeed in their journey towards joining prestigious cadet colleges. Learn about our programs, eligibility criteria, and how we prepare students for the competitive admission tests.</p>
                 <img src={poster} alt="Admission Poster" style={{ maxWidth: '100%', height: 'auto' }} />
